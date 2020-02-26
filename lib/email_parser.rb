@@ -5,8 +5,12 @@
 
 class EmailAddressParser 
   
+  def initialize(info)
+    @info = info
+  end 
+  
   def parse 
-    
+    @info.split
   end 
   
 end 
