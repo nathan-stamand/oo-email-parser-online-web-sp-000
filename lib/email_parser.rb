@@ -10,7 +10,7 @@ class EmailAddressParser
   end 
   
   def parse 
-    @info.split.gsub(",", '')
+    @info.gsub(",", ' ').split
   end 
   
 end 
